@@ -1,0 +1,43 @@
+# Environment variables and secrets
+.env
+.spotify_cache
+id's.txt
+*.key
+*.pem
+
+# Large datasets and models
+data/
+saved_models/
+*.h5
+*.pkl
+*.joblib
+*.weights
+training_metrics.png
+
+# Unimportant Files
+
+
+# Virtual environments
+venv/
+mood_music_env/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
